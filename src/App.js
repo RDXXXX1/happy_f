@@ -49,6 +49,7 @@ import './App.css';
 const App = () => {
   return (
     <Router>
+      <CustomNavbar className="navbar" />
       <AppRoutes />
     </Router>
   );
