@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-navbar {
+    /* width: 100%; */
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 0;
+    width: 100%;
+    position: fixed;
+    /* Fixed positioning for the navbar */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* Ensure it stays on top of other elements */
+}
+
+.custom-navbar .navbar-brand {
+    font-weight: 600;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #000;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.custom-navbar .navbar-nav .try-button {
+    background-color: #228be6;
+    border-color: #6495ed;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 600;
+}
+
+.custom-navbar .navbar-nav .try-button:hover {
+    background-color: #4169e1;
+    color: white;
+}
+
+.custom-navbar .navbar-toggler {
+    background-color: #87cefa;
+    border-color: #87cefa;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-image: none;
+    color: black;
+}
+
+.free-ai-tools {
+    margin-top: 70px;
+    /* Adjust based on the height of your navbar */
+    background-color: white;
+    padding: 0px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.free-ai-tools-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+
+.free-ai-tools-description {
+    font-size: 1.5rem;
+    color: #666;
+}
